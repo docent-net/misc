@@ -26,10 +26,9 @@ Help:
 
 ```
     $ python scraper.py --help
-    Usage: scraper.py [OPTIONS] COMMAND [ARGS]...
-
     Options:
-      -d, --dir TEXT  Directory where video files will be saved  [required]
-      --urls TEXT     URL for Youtube playlist or path to a file which contains playlists and / or videos URLS [required]
-      --help          Show this message and exit.
+      -d, --dir TEXT   Directory where video files will be saved  [required]
+      -u, --urls TEXT  URL for Youtube playlist or path to a file which contains
+                       playlists and / or videos URLS   [required]
+      --help           Show this message and exit.
 ```
