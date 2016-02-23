@@ -19,7 +19,7 @@ Installation (under virtualenv):
 Simple usage:
 
 ```
-    $ python scraper.py --dir <dir> --url <playlist_url>
+    $ python scraper.py --dir <dir> --urls <playlist_url or file path>
 ```
 
 Help:
@@ -30,6 +30,6 @@ Help:
 
     Options:
       -d, --dir TEXT  Directory where video files will be saved  [required]
-      --url TEXT      Youtube playlist URL  [required]
+      --urls TEXT     URL for Youtube playlist or path to a file which contains playlists and / or videos URLS [required]
       --help          Show this message and exit.
 ```

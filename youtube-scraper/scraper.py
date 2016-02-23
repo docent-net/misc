@@ -13,7 +13,7 @@ from os import path
               help='Directory where video files will be saved',
               required=True)
 @click.option('--urls', '-u',
-              help='URL for Youtube playlist or path to a file which contains playlists or videos URLS ',
+              help='URL for Youtube playlist or path to a file which contains playlists and / or videos URLS ',
               required=True)
 def fetch(dir, urls):
 
