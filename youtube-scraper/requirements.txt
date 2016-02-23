@@ -1,0 +1,5 @@
+beautifulsoup4==4.4.1
+click==6.3
+pafy==0.4.3
+requests==2.9.1
+youtube-dl==2016.2.22
