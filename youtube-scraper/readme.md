@@ -4,13 +4,25 @@ This script will download all videos from provided youtube playlist
 
 ### Requirements ###
 
-- python dependencies (check in requirement.txt)
+- python dependencies (check in requirements.txt)
 
 ### Usage ###
+
+Installation (under virtualenv):
+
+```
+    mkvirtualenv scraper
+    pip install -r requirements.txt
+
+```
+
+Simple usage:
 
 ```
     $ python scraper.py --dir <dir> --url <playlist_url>
 ```
+
+Help:
 
 ```
     $ python scraper.py --help
