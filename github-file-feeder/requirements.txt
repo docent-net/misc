@@ -1,0 +1,4 @@
+feedparser==5.2.1
+uWSGI==2.0.14
+webapp2==2.5.2
+WebOb==1.6.3
